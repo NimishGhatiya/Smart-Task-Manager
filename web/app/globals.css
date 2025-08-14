@@ -1,0 +1,11 @@
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body { margin: 0; font-family: ui-sans-serif, system-ui, Arial, Helvetica, sans-serif; background: #0b1020; color: #e6e8f0; }
+.container { max-width: 1000px; margin: 0 auto; padding: 24px; }
+.card {margin-bottom: 6px; background: #141a2d; border: 1px solid #26314f; border-radius: 16px; padding: 16px; box-shadow: 0 10px 30px rgba(0,0,0,.25); }
+.row { display: flex; gap: 16px; flex-wrap: wrap; }
+.input, select, textarea { width: 100%; padding: 10px 12px; border-radius: 10px; border: 1px solid #2a3556; background: #0f1426; color: #e6e8f0; }
+.button { padding: 10px 14px; border-radius: 10px; border: 1px solid #3752ff; background: #2641ff; color: white; cursor: pointer; }
+.button.secondary { background: transparent; border-color: #2a3556; }
+.badge { padding: 4px 8px; border-radius: 999px; border: 1px solid #2a3556; font-size: 12px; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
