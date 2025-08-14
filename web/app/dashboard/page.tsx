@@ -44,7 +44,6 @@ export default function Dashboard() {
             <button className="button secondary"  onClick={()=>{ localStorage.clear(); window.location.href = '/'; }}>Logout</button>
           </div>
           <p>Quick stats: {tasks.length} tasks • {users.length} users</p>
-                      <button className="button secondary" style={{backgroundColor:'blue'}} onClick={()=>{ localStorage.clear(); window.location.href = '/'; }}>All Users</button>
 
         </div>
         <TaskForm users={users} tasks={tasks} onCreated={loadAll} />
